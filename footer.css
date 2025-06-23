@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#footer-logo {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.conteiner-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  gap: 2rem;
+  background-color: rgb(0, 0, 0);
+}
+.conteiner-div-footer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.conteiner-foot-endereco {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: auto;
+}
+
+.conteiner-foot-endereco-icon {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.conteiner-foot-endereco-icon:hover {
+  color: #fa7513;
+}
+
+.conteiner-foot-endereco-icon i {
+  color: #fa7513;
+}
+
+.conteiner-foot-endereco p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.conteiner-foot-company,
+.conteiner-foot-menu,
+.conteiner-foot-suporte {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: auto;
+}
+
+.conteiner-foot-company ul li,
+.conteiner-foot-menu ul li,
+.conteiner-foot-suporte ul li {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.conteiner-foot-company ul li a,
+.conteiner-foot-menu ul li a,
+.conteiner-foot-suporte ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.conteiner-foot-company ul li a:hover,
+.conteiner-foot-menu ul li a:hover,
+.conteiner-foot-suporte ul li a:hover {
+  color: #fa7513;
+}
+
+.conteiner-foot-social-media {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
+  font-size: 1.3rem;
+  border-top: 1px solid #fff;
+  padding-top: 1rem;
+}
+
+.conteiner-foot-social-media-icons {
+  display: flex;
+  gap: 1rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.conteiner-foot-social-media-icons i {
+  cursor: pointer;
+}
+.conteiner-foot-social-media-icons i:hover {
+  color: #fa7513;
+}

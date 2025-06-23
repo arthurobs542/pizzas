@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+
+.conteiner-section-pizza-semana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner-section-div-pizza-semana {
+  width: 80%;
+  height: auto;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.conteiner-div-header-pizza-semana {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.conteiner-div-header-pizza-semana strong {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.conteiner-menu-header strong h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.conteiner-menu-header h2 {
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.pizza-area {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.pizza-item {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  width: 300px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.pizza-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.pizza-item--img img {
+  max-width: 250px;
+}
+
+.pizza-item--name {
+  margin-bottom: 10px;
+}
+
+.pizza-item--price {
+  color: #fd7312;
+  margin-bottom: 10px;
+}
+
+.pizza-item--add {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #d89d73;
+  padding: 5px;
+  width: 10%;
+}
